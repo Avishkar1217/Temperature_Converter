@@ -1,0 +1,59 @@
+body{
+    padding: 50px 100px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    animation: back;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    animation: avishkar;
+    color: red;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes avishkar {
+    from{
+        color: red;
+
+    }
+    to{
+        color: blueviolet;
+    }
+    
+}
+
+#container{
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 50px;
+    background-color: rgba(153, 209, 231.0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inp{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.input_div:hover{
+   
+    box-shadow:  0px 0px 10px grey,0px 0px 15px grey,0px 0px 25px grey;
+}
+
+label{
+    font-size: 29px;
+    
+    color:#ff2f00;
+}
